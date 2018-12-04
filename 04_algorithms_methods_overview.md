@@ -15,13 +15,11 @@ List all algorithms and methods that we have covered in this course. Write 3 sen
 
 - **Alpha-Beta Pruning**: This algorithm is used to prune the results given my Minimax, to make it more efficient. Instead of continiuing to evaluate a minimax tree branch, it will stop whenever a better action is found, as these lesser branches will not affect the final decision. It uses two values, alpha and beta, which represent the minumum score for the player and the maximum score for the opponent respectively. A branch is not explored whenever beta is less than or equal to alpha, as these actions will not be considered for the final result.
 
-- **Expectimax**: Expectimax is similar to Minimax, except that it no longer assumes we are playing against a perfect opponent. Instead it uses... 
+- **Expectimax**: Expectimax is similar to Minimax, except that it no longer assumes we are playing against a perfect opponent. Instead it uses probabilistic modeling to emulate opponent behavior, where they may not always choose the optimal action. This allows us to choose the best probability model for the opponent.
 
-- **Better Evaluation Function**:
+- **Value Iteration**: Value iteration is a planner which computes a Markov Decision Process (MDP) policy through backwards induction. This optimal computed policy is derived through an iterative process that runs until convergence. 
 
-- **Value Iteration**:
-
-- **Q-Learning**:
+- **Q-Learning**: This algorithm is used to find a policy that will indicate which action to take under different circumstances. It takes into account the old Q value, the learning rate, and the learned value which is composed of the reward, discount factor, and estimate of the next optimal Q value. The end result allows an agent to take the best possible action given a specific state.
 
 - **Epsilon Greedy**:
 
