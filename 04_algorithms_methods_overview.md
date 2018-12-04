@@ -21,8 +21,4 @@ List all algorithms and methods that we have covered in this course. Write 3 sen
 
 - **Q-Learning**: This algorithm is used to find a policy that will indicate which action to take under different circumstances. It takes into account the old Q value, the learning rate, and the learned value which is composed of the reward, discount factor, and estimate of the next optimal Q value. The end result allows an agent to take the best possible action given a specific state.
 
-- **Epsilon Greedy**:
-
-- **Approximate Q-Learning**:
-
-- **Cross-Entropy Method**:
+- **Cross-Entropy Method**: This method is used to produce better samples given a distribution that is different from the one we are interested in. It works by reducing the amount of cross entropy, which is used as a quantitave measure of the difference between two distributions, from the given distribution and the target distribition. This can be particularly helful for simulating rare-events.
